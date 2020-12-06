@@ -79,11 +79,6 @@ while CONTINUE:
     # input_bytes = stream.read(BLOCKLEN)       # BLOCKLEN = number of frames read
     input_bytes = stream.read(BLOCKLEN, exception_on_overflow = False)   # BLOCKLEN = number of frames read
 
-    # Convert binary data to tuple of numbers
-    input_tuple = struct.unpack('h' * BLOCKLEN, input_bytes)
-
-    data=np.array(input_tuple)
-
     scaled = np.frombuffer(input_bytes, np.int16)
 
     # create a transformer
