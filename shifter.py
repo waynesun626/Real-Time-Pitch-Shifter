@@ -84,7 +84,7 @@ while CONTINUE:
     # create a transformer
     tfm = sox.Transformer()
 
-    tfm.bandpass(261.625)
+    #tfm.bandpass(261.625)
 
     # shift the pitch up by 1 semitones
     tfm.pitch(k)
