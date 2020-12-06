@@ -15,3 +15,10 @@ Key idea:
 
 A440 Rule and chromatic scale:  
 https://en.wikipedia.org/wiki/Chromatic_scale
+
+Pianoputer
+http://zulko.github.io/blog/2014/03/29/soundstretching-and-pitch-shifting-in-python/
+
+https://www.johndcook.com/blog/2016/02/10/musical-pitch-notation/
+
+https://stackoverflow.com/questions/43963982/python-change-pitch-of-wav-file
