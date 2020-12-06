@@ -23,7 +23,7 @@ stream = p.open(
         rate        = RATE,
         input       = True,
         output      = True,
-        frames_per_buffer = 128)
+        frames_per_buffer = 800)
 
 CONTINUE = True
 KEYPRESS = False
@@ -89,7 +89,7 @@ while CONTINUE:
     # create a transformer
     tfm = sox.Transformer()
 
-    tfm.bandpass(440)
+    tfm.bandpass(261.625)
 
     # shift the pitch up by 1 semitones
     tfm.pitch(k)
