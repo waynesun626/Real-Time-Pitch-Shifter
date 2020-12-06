@@ -10,7 +10,7 @@ To be done: Adding indicators to show which key was pressed.
 
 Key idea:
 1. Use a band-pass filter to change the central frequency of input audio signal to 261.625Hz(Middle C). 
-(My solution is using the bandpass() method inside a SoX transformer. Result is not ideal!)
+(My solution is to use the bandpass() method inside a SoX transformer. Result is not ideal!)
 2. Change the pitch based on the key pressed.
 
 A440 Rule and chromatic scale:  
